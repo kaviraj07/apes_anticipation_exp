@@ -1,0 +1,4 @@
+int32 belief
+int32 loc
+---
+float32 loc_ant

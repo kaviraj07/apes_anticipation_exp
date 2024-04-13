@@ -1,0 +1,14 @@
+<launch>
+    <!--Nodes-->
+    <node pkg="apes_anticipation_exp" name="scenario_node" type="scenario_node.py" output="screen" />
+    <node pkg="apes_anticipation_exp" name="ape_node" type="ape_node.py" output="screen" />
+    <node pkg="apes_anticipation_exp" name="bayesian_node" type="bayesian_node.py" output="screen" />
+    <node pkg="apes_anticipation_exp" name="viz_node" type="viz_node.py" output="screen" />
+
+    <!--rqt_graph-->
+    <node pkg="rqt_graph" name="rqt_graph" type="rqt_graph" respawn="false" output="screen" />
+
+    <!--rqt_plot-->
+    <node pkg="rqt_plot" name="rqt_plot" type="rqt_plot" respawn="false" output="screen" />
+
+</launch>
